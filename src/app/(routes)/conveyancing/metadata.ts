@@ -1,17 +1,17 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Conveyancing Services in Dubai | Property Legal Services | Evid Properties',
+  title: 'Conveyancing Services in Dubai | Property Legal Services | jador Properties',
   description: 'Professional conveyancing and legal services for property transactions in Dubai. Expert property lawyers, title transfer, due diligence, and transaction management.',
   keywords: 'conveyancing Dubai, property legal services Dubai, property lawyers Dubai, title transfer Dubai, property due diligence Dubai, real estate legal services Dubai',
   alternates: {
     canonical: '/conveyancing',
   },
   openGraph: {
-    title: 'Conveyancing Services in Dubai | Evid Properties',
+    title: 'Conveyancing Services in Dubai | jador Properties',
     description: 'Professional conveyancing and legal services for property transactions in Dubai.',
-    url: 'https://evidproperties.com/conveyancing',
-    siteName: 'Evid Properties',
+    url: 'https://jadorproperties.com/conveyancing',
+    siteName: 'jador Properties',
     images: [
       {
         url: '/images/bgImage.webp',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Conveyancing Services in Dubai | Evid Properties',
+    title: 'Conveyancing Services in Dubai | jador Properties',
     description: 'Professional conveyancing and legal services for property transactions in Dubai.',
     images: ['/images/bgImage.webp'],
   },

@@ -14,16 +14,16 @@ export default function MainContent() {
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight font-serif">
               Do you need Property Management Services?
             </h2>
-            
+
             <div className="space-y-6 text-gray-700 text-sm md:text-base leading-relaxed">
               <p>
-                Owning a lucrative rental property requires significant time, expertise, and know-how. Let Evid Properties alleviate the burden and hassle associated with property management.
+                Owning a lucrative rental property requires significant time, expertise, and know-how. Let jador Properties alleviate the burden and hassle associated with property management.
               </p>
-              
+
               <p>
                 As a leading property management company in Dubai, we provide comprehensive, professional services, handling all aspects of rental property management.
               </p>
-              
+
               <p>
                 We protect your property, deposits, and tenants for rentals in Dubai, handling rental collection, condition reports, and maintenance oversight. Our collaborative approach ensures faster, higher-quality service, and greater transparency, setting us apart.
               </p>

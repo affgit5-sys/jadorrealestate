@@ -1,17 +1,17 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Property Management Services in Dubai | Evid Properties',
+  title: 'Property Management Services in Dubai | jador Properties',
   description: 'Professional property management services in Dubai. Comprehensive property care, tenant management, maintenance, and rental optimization. Trusted by property owners across Dubai.',
   keywords: 'property management Dubai, property management services Dubai, rental management Dubai, property maintenance Dubai, tenant management Dubai',
   alternates: {
     canonical: '/property-management',
   },
   openGraph: {
-    title: 'Property Management Services in Dubai | Evid Properties',
+    title: 'Property Management Services in Dubai | jador Properties',
     description: 'Professional property management services in Dubai. Comprehensive property care, tenant management, and maintenance.',
-    url: 'https://evidproperties.com/property-management',
-    siteName: 'Evid Properties',
+    url: 'https://jadorproperties.com/property-management',
+    siteName: 'jador Properties',
     images: [
       {
         url: '/images/bgImage.webp',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Property Management Services in Dubai | Evid Properties',
+    title: 'Property Management Services in Dubai | jador Properties',
     description: 'Professional property management services in Dubai.',
     images: ['/images/bgImage.webp'],
   },

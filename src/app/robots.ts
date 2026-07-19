@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/_next/', '/admin/'],
     },
-    sitemap: 'https://evidproperties.com/sitemap.xml',
+    sitemap: 'https://jadorproperties.com/sitemap.xml',
   }
 }
 

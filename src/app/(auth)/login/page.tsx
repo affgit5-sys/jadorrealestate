@@ -20,7 +20,7 @@ export default function LoginPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!username || !password) {
       setError('Please fill in all required fields');
       return;
@@ -33,16 +33,16 @@ export default function LoginPage() {
       const formData = new FormData();
       formData.append('username', username);
       formData.append('password', password);
-      
+
       const response = await api.post('/api/login', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
       });
-      
+
       // Success - navigate to home page
       router.push('/');
-      
+
     } catch (err) {
       const apiError = handleApiError(err);
       setError(apiError.message || 'Login failed. Please check your credentials.');
@@ -80,16 +80,16 @@ export default function LoginPage() {
         <div className="bg-white rounded-lg shadow-2xl p-10">
           {/* Header */}
           <div className="text-center mb-8">
-            <Link 
+            <Link
               href="/"
               className="flex items-center text-gray-600 hover:text-gray-800 transition-colors duration-200 mb-6"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               <span className="text-sm">Back to website</span>
             </Link>
-            
+
             <h1 className="text-3xl font-bold text-blue-900 mb-2 font-serif">
-              EVIDPROPERTIES
+              jadorPROPERTIES
             </h1>
             <p className="text-gray-600 text-sm mb-4">
               Login to your account
@@ -103,8 +103,8 @@ export default function LoginPage() {
           </div>
 
           {/* Google Sign In */}
-          <Button 
-            variant="outline" 
+          <Button
+            variant="outline"
             className="w-full mb-6 h-12 border-gray-300 hover:bg-gray-50"
           >
             <svg className="w-5 h-5 mr-3" viewBox="0 0 24 24">
@@ -197,8 +197,8 @@ export default function LoginPage() {
 
             {/* Forgot Password */}
             <div className="text-right">
-              <Link 
-                href="/forgot-password" 
+              <Link
+                href="/forgot-password"
                 className="text-sm text-blue-600 underline hover:text-blue-700"
               >
                 Forgot your password?
@@ -218,8 +218,8 @@ export default function LoginPage() {
             </p>
 
             {/* Submit Button */}
-            <Button 
-              type="submit" 
+            <Button
+              type="submit"
               className="w-full h-12 bg-primary hover:bg-primary text-white font-medium text-lg"
               disabled={isLoading}
             >

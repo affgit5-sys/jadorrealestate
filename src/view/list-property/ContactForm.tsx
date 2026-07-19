@@ -37,7 +37,7 @@ function ContactForm() {
               Unleash your property potential<br />
               List, Sell & Succeed with Us
             </h2>
-            
+
             {/* Stats */}
             <div className="flex gap-8 mb-8">
               <div>
@@ -51,9 +51,9 @@ function ContactForm() {
             </div>
 
             <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-              For over 16 years, Evid Properties has been the go-to choice for landlords and homeowners. 
-              With a dedicated team of over 200 area specialists, we specialize in maximizing your returns. 
-              Don't miss out on our expertise. Contact Evid Properties today!
+              For over 16 years, jador Properties has been the go-to choice for landlords and homeowners.
+              With a dedicated team of over 200 area specialists, we specialize in maximizing your returns.
+              Don't miss out on our expertise. Contact jador Properties today!
             </p>
           </div>
 
@@ -68,7 +68,7 @@ function ContactForm() {
                     id="name"
                     placeholder="Name"
                     value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="mt-1"
                   />
                 </div>
@@ -79,7 +79,7 @@ function ContactForm() {
                     type="email"
                     placeholder="Email"
                     value={formData.email}
-                    onChange={(e) => setFormData({...formData, email: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="mt-1"
                   />
                 </div>
@@ -89,7 +89,7 @@ function ContactForm() {
               <div>
                 <Label htmlFor="phone">Phone</Label>
                 <div className="flex mt-1">
-                  <Select value={formData.countryCode} onValueChange={(value) => setFormData({...formData, countryCode: value})}>
+                  <Select value={formData.countryCode} onValueChange={(value) => setFormData({ ...formData, countryCode: value })}>
                     <SelectTrigger className="w-24">
                       <SelectValue />
                     </SelectTrigger>
@@ -103,7 +103,7 @@ function ContactForm() {
                     id="phone"
                     placeholder="Phone Number"
                     value={formData.phone}
-                    onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className="flex-1 ml-2"
                   />
                 </div>
@@ -112,7 +112,7 @@ function ContactForm() {
               {/* Language */}
               <div>
                 <Label htmlFor="language">Preferred Language</Label>
-                <Select value={formData.language} onValueChange={(value) => setFormData({...formData, language: value})}>
+                <Select value={formData.language} onValueChange={(value) => setFormData({ ...formData, language: value })}>
                   <SelectTrigger className="mt-1">
                     <SelectValue />
                   </SelectTrigger>
@@ -132,7 +132,7 @@ function ContactForm() {
                   id="address"
                   placeholder="Property Address"
                   value={formData.address}
-                  onChange={(e) => setFormData({...formData, address: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                   className="mt-1"
                 />
               </div>
@@ -141,7 +141,7 @@ function ContactForm() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <Label htmlFor="propertyType">Property Type</Label>
-                  <Select value={formData.propertyType} onValueChange={(value) => setFormData({...formData, propertyType: value})}>
+                  <Select value={formData.propertyType} onValueChange={(value) => setFormData({ ...formData, propertyType: value })}>
                     <SelectTrigger className="mt-1">
                       <SelectValue placeholder="Select..." />
                     </SelectTrigger>
@@ -155,7 +155,7 @@ function ContactForm() {
                 </div>
                 <div>
                   <Label htmlFor="purpose">Property Purpose</Label>
-                  <Select value={formData.purpose} onValueChange={(value) => setFormData({...formData, purpose: value})}>
+                  <Select value={formData.purpose} onValueChange={(value) => setFormData({ ...formData, purpose: value })}>
                     <SelectTrigger className="mt-1">
                       <SelectValue placeholder="Select..." />
                     </SelectTrigger>
@@ -171,7 +171,7 @@ function ContactForm() {
               {/* Bedrooms */}
               <div>
                 <Label htmlFor="bedrooms">Bedroom</Label>
-                <Select value={formData.bedrooms} onValueChange={(value) => setFormData({...formData, bedrooms: value})}>
+                <Select value={formData.bedrooms} onValueChange={(value) => setFormData({ ...formData, bedrooms: value })}>
                   <SelectTrigger className="mt-1">
                     <SelectValue placeholder="Select..." />
                   </SelectTrigger>
@@ -193,15 +193,15 @@ function ContactForm() {
                   id="message"
                   placeholder="Share any additional information"
                   value={formData.message}
-                  onChange={(e) => setFormData({...formData, message: e.target.value})}
+                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="mt-1"
                   rows={4}
                 />
               </div>
 
               {/* Submit Button */}
-              <Button 
-                type="submit" 
+              <Button
+                type="submit"
                 className="w-full bg-primary hover:bg-primary text-white py-3 text-lg font-semibold"
               >
                 Submit Details

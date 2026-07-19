@@ -21,20 +21,20 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: "Evid Properties - Premium Real Estate Solutions in Dubai | Buy, Rent & Invest",
-    template: "%s | Evid Properties",
+    default: "jador Properties - Premium Real Estate Solutions in Dubai | Buy, Rent & Invest",
+    template: "%s | jador Properties",
   },
   description: "Discover luxury properties, off-plan projects, and premium real estate services in Dubai. Expert agents, comprehensive market insights, and exceptional customer service. Buy, rent, or invest in Dubai's finest properties.",
   keywords: "Dubai real estate, luxury properties Dubai, buy property Dubai, rent property Dubai, off-plan Dubai, property investment Dubai, real estate agents Dubai, Dubai properties, Business Bay properties, Dubai Marina properties, property management Dubai, mortgages Dubai, conveyancing Dubai",
-  authors: [{ name: "Evid Properties" }],
-  creator: "Evid Properties",
-  publisher: "Evid Properties",
+  authors: [{ name: "jador Properties" }],
+  creator: "jador Properties",
+  publisher: "jador Properties",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://evidproperties.com'),
+  metadataBase: new URL('https://jadorproperties.com'),
   alternates: {
     canonical: '/',
   },
@@ -47,16 +47,16 @@ export const metadata: Metadata = {
     apple: '/images/new_logo.png',
   },
   openGraph: {
-    title: "Evid Properties - Premium Real Estate Solutions in Dubai",
+    title: "jador Properties - Premium Real Estate Solutions in Dubai",
     description: "Discover luxury properties, off-plan projects, and premium real estate services in Dubai. Expert agents, comprehensive market insights, and exceptional customer service.",
-    url: 'https://evidproperties.com',
-    siteName: 'Evid Properties',
+    url: 'https://jadorproperties.com',
+    siteName: 'jador Properties',
     images: [
       {
         url: '/images/bgImage.webp',
         width: 1200,
         height: 630,
-        alt: 'Evid Properties - Premium Real Estate Solutions in Dubai',
+        alt: 'jador Properties - Premium Real Estate Solutions in Dubai',
       },
     ],
     locale: 'en_US',
@@ -64,10 +64,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Evid Properties - Premium Real Estate Solutions in Dubai",
+    title: "jador Properties - Premium Real Estate Solutions in Dubai",
     description: "Discover luxury properties, off-plan projects, and premium real estate services in Dubai. Expert agents, comprehensive market insights, and exceptional customer service.",
     images: ['/images/bgImage.webp'],
-    creator: '@evidproperties',
+    creator: '@jadorproperties',
   },
   robots: {
     index: true,

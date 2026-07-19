@@ -1,17 +1,17 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Off-Plan Properties in Dubai | Exclusive New Developments | Evid Properties',
+  title: 'Off-Plan Properties in Dubai | Exclusive New Developments | jador Properties',
   description: 'Discover exclusive off-plan properties and new developments in Dubai. Be among the first to own in Dubai\'s most prestigious projects with exceptional investment potential.',
   keywords: 'off-plan Dubai, new developments Dubai, pre-construction Dubai, off-plan properties Dubai, new projects Dubai, investment properties Dubai',
   alternates: {
     canonical: '/offPlans',
   },
   openGraph: {
-    title: 'Off-Plan Properties in Dubai | Evid Properties',
+    title: 'Off-Plan Properties in Dubai | jador Properties',
     description: 'Discover exclusive off-plan properties and new developments in Dubai with exceptional investment potential.',
-    url: 'https://evidproperties.com/offPlans',
-    siteName: 'Evid Properties',
+    url: 'https://jadorproperties.com/offPlans',
+    siteName: 'jador Properties',
     images: [
       {
         url: '/images/bgImage.webp',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Off-Plan Properties in Dubai | Evid Properties',
+    title: 'Off-Plan Properties in Dubai | jador Properties',
     description: 'Discover exclusive off-plan properties and new developments in Dubai.',
     images: ['/images/bgImage.webp'],
   },

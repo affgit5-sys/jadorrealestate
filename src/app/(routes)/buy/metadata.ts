@@ -1,17 +1,17 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Buy Luxury Properties in Dubai | Evid Properties',
+  title: 'Buy Luxury Properties in Dubai | jador Properties',
   description: 'Discover premium properties for sale in Dubai. Browse apartments, penthouses, townhouses, and villas in Dubai\'s most prestigious communities. Expert guidance and exceptional service.',
   keywords: 'buy property Dubai, luxury properties Dubai, apartments for sale Dubai, villas Dubai, penthouses Dubai, real estate Dubai',
   alternates: {
     canonical: '/buy',
   },
   openGraph: {
-    title: 'Buy Luxury Properties in Dubai | Evid Properties',
+    title: 'Buy Luxury Properties in Dubai | jador Properties',
     description: 'Discover premium properties for sale in Dubai. Browse apartments, penthouses, townhouses, and villas.',
-    url: 'https://evidproperties.com/buy',
-    siteName: 'Evid Properties',
+    url: 'https://jadorproperties.com/buy',
+    siteName: 'jador Properties',
     images: [
       {
         url: '/images/bgImage.webp',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Buy Luxury Properties in Dubai | Evid Properties',
+    title: 'Buy Luxury Properties in Dubai | jador Properties',
     description: 'Discover premium properties for sale in Dubai.',
     images: ['/images/bgImage.webp'],
   },

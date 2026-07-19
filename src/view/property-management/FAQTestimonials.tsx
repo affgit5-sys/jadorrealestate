@@ -25,7 +25,7 @@ const testimonials = [
     time: "1 year ago",
     rating: 5,
     title: "Finding Reliable Tenants Quickly",
-    review: "I was having a hard time finding reliable tenants for my rental property. Evid Properties stepped in and took over the tenant screening process. Within just...",
+    review: "I was having a hard time finding reliable tenants for my rental property. jador Properties stepped in and took over the tenant screening process. Within just...",
     avatar: "/placeholder-user.jpg"
   },
   {
@@ -33,7 +33,7 @@ const testimonials = [
     time: "1 year ago",
     rating: 5,
     title: "Overseas Property Management Made Easy",
-    review: "Being an overseas property owner, managing maintenance issues was quite challenging. Evid Properties' team managed everything, from",
+    review: "Being an overseas property owner, managing maintenance issues was quite challenging. jador Properties' team managed everything, from",
     avatar: "/placeholder-user.jpg"
   },
   {
@@ -41,7 +41,7 @@ const testimonials = [
     time: "1 year ago",
     rating: 5,
     title: "Stress-Free Tenant Eviction and New Tenants",
-    review: "I had a difficult situation with a tenant that needed to be evicted. Evid Properties' team expertly navigated the legal process and",
+    review: "I had a difficult situation with a tenant that needed to be evicted. jador Properties' team expertly navigated the legal process and",
     avatar: "/placeholder-user.jpg"
   }
 ];
@@ -59,9 +59,9 @@ export default function FAQTestimonials() {
         {/* FAQ Section */}
         <div className="mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-900 text-center mb-12 font-serif">
-            FAQs About Evid Properties Property Management Service Dubai
+            FAQs About jador Properties Property Management Service Dubai
           </h2>
-          
+
           <div className="max-w-4xl mx-auto space-y-4">
             {faqs.map((faq, index) => (
               <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -72,13 +72,12 @@ export default function FAQTestimonials() {
                   <span className="text-base md:text-lg font-semibold text-blue-900">
                     {faq.question}
                   </span>
-                  <Plus 
-                    className={`w-6 h-6 text-blue-900 transition-transform duration-200 ${
-                      openFAQ === index ? 'rotate-45' : ''
-                    }`} 
+                  <Plus
+                    className={`w-6 h-6 text-blue-900 transition-transform duration-200 ${openFAQ === index ? 'rotate-45' : ''
+                      }`}
                   />
                 </button>
-                
+
                 {openFAQ === index && (
                   <div className="px-6 pb-4">
                     <p className="text-gray-700 leading-relaxed text-sm md:text-base">
@@ -121,17 +120,17 @@ export default function FAQTestimonials() {
                     <p className="text-sm text-gray-500">{testimonial.time}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-center mb-3">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <span key={i} className="text-orange-500 text-lg">★</span>
                   ))}
                 </div>
-                
+
                 <h5 className="font-semibold text-blue-900 mb-2">
                   {testimonial.title}
                 </h5>
-                
+
                 <p className="text-gray-700 text-sm leading-relaxed">
                   {testimonial.review}
                   <span className="text-orange-500 cursor-pointer hover:underline ml-1">

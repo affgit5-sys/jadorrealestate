@@ -1,17 +1,17 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Why Invest in Dubai Real Estate | Investment Guide | Evid Properties',
+  title: 'Why Invest in Dubai Real Estate | Investment Guide | jador Properties',
   description: 'Discover why Dubai is the perfect destination for real estate investment. Tax-free returns, high rental yields, visa opportunities, and world-class lifestyle. Complete investment guide.',
   keywords: 'why invest in Dubai, Dubai real estate investment, Dubai property investment, Dubai investment guide, Dubai property benefits, Dubai real estate advantages',
   alternates: {
     canonical: '/whyDubai',
   },
   openGraph: {
-    title: 'Why Invest in Dubai Real Estate | Evid Properties',
+    title: 'Why Invest in Dubai Real Estate | jador Properties',
     description: 'Discover why Dubai is the perfect destination for real estate investment. Tax-free returns, high rental yields, and world-class lifestyle.',
-    url: 'https://evidproperties.com/whyDubai',
-    siteName: 'Evid Properties',
+    url: 'https://jadorproperties.com/whyDubai',
+    siteName: 'jador Properties',
     images: [
       {
         url: '/images/bgImage.webp',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Why Invest in Dubai Real Estate | Evid Properties',
+    title: 'Why Invest in Dubai Real Estate | jador Properties',
     description: 'Discover why Dubai is the perfect destination for real estate investment.',
     images: ['/images/bgImage.webp'],
   },

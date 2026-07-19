@@ -1,17 +1,17 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Dubai Real Estate Blog | Insights & Market Updates | Evid Properties',
+  title: 'Dubai Real Estate Blog | Insights & Market Updates | jador Properties',
   description: 'Stay informed with the latest Dubai real estate insights, market trends, investment guides, and lifestyle articles. Expert analysis and comprehensive market information.',
   keywords: 'Dubai real estate blog, property market Dubai, real estate news Dubai, Dubai property insights, investment guides Dubai, Dubai market trends',
   alternates: {
     canonical: '/blog',
   },
   openGraph: {
-    title: 'Dubai Real Estate Blog | Evid Properties',
+    title: 'Dubai Real Estate Blog | jador Properties',
     description: 'Stay informed with the latest Dubai real estate insights, market trends, and investment guides.',
-    url: 'https://evidproperties.com/blog',
-    siteName: 'Evid Properties',
+    url: 'https://jadorproperties.com/blog',
+    siteName: 'jador Properties',
     images: [
       {
         url: '/images/bgImage.webp',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dubai Real Estate Blog | Evid Properties',
+    title: 'Dubai Real Estate Blog | jador Properties',
     description: 'Stay informed with the latest Dubai real estate insights and market trends.',
     images: ['/images/bgImage.webp'],
   },

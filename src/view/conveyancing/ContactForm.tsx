@@ -38,7 +38,7 @@ export default function ContactForm() {
             <h2 className="text-4xl font-bold text-blue-900 mb-6 font-serif">
               Your Property Transactions Simplified
             </h2>
-            
+
             <p className="text-sm md:text-base text-gray-600 mb-8 leading-relaxed">
               Please fill in the form below and we'll get back to you within 24 hours for further details.
             </p>
@@ -75,8 +75,8 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900">Email</div>
-                  <a href="mailto:info@evidproperties.com" className="text-primary hover:text-primary/80 transition-colors duration-200">
-                    info@evidproperties.com
+                  <a href="mailto:info@jadorproperties.com" className="text-primary hover:text-primary/80 transition-colors duration-200">
+                    info@jadorproperties.com
                   </a>
                 </div>
               </div>

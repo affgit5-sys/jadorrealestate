@@ -35,7 +35,7 @@ export default function CareersPage() {
         <div className="absolute inset-0">
           <Image
             src="/images/bgImage.webp" // Assuming this exists, or fallback
-            alt="Careers at Evid Properties"
+            alt="Careers at jador Properties"
             fill
             className="object-cover"
             priority
@@ -61,7 +61,7 @@ export default function CareersPage() {
                 Why Work With Us?
               </h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                At Evid Properties, we believe that our people are our greatest asset. We foster a culture of excellence, innovation, and collaboration. When you join us, you become part of a family that is dedicated to your growth and success.
+                At jador Properties, we believe that our people are our greatest asset. We foster a culture of excellence, innovation, and collaboration. When you join us, you become part of a family that is dedicated to your growth and success.
               </p>
               <ul className="space-y-4">
                 {[
@@ -78,12 +78,12 @@ export default function CareersPage() {
               </ul>
             </div>
             <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
-               <Image
-                  src="/images/marketprofiling.webp"
-                  alt="Team Culture"
-                  fill
-                  className="object-cover"
-                />
+              <Image
+                src="/images/marketprofiling.webp"
+                alt="Team Culture"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function CareersPage() {
           </div>
 
           {loading ? (
-             <div className="grid gap-6">
+            <div className="grid gap-6">
               {[1, 2, 3].map((i) => (
                 <div key={i} className="h-40 bg-white rounded-lg animate-pulse shadow-sm" />
               ))}
@@ -131,10 +131,10 @@ export default function CareersPage() {
                           {job.location || "Dubai, UAE"}
                         </div>
                         <div className="flex items-center">
-                           <Briefcase className="w-4 h-4 mr-1 text-[#DC2626]" />
-                           {job.job_type ? job.job_type.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase()) : "Full Time"}
+                          <Briefcase className="w-4 h-4 mr-1 text-[#DC2626]" />
+                          {job.job_type ? job.job_type.replace('_', ' ').replace(/\b\w/g, l => l.toUpperCase()) : "Full Time"}
                         </div>
-                         {/* <div className="flex items-center">
+                        {/* <div className="flex items-center">
                            <Clock className="w-4 h-4 mr-1 text-[#DC2626]" />
                            Posted {new Date(job.created_at!).toLocaleDateString()}
                         </div> */}

@@ -3,9 +3,9 @@
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'RealEstateAgent',
-  name: 'Evid Properties',
-  url: 'https://evidproperties.com',
-  logo: 'https://evidproperties.com/images/new_logo.png',
+  name: 'jador Properties',
+  url: 'https://jadorproperties.com',
+  logo: 'https://jadorproperties.com/images/new_logo.png',
   description: 'Premium real estate solutions in Dubai. Expert agents, comprehensive market insights, and exceptional customer service.',
   address: {
     '@type': 'PostalAddress',
@@ -19,13 +19,13 @@ export const organizationSchema = {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
       telephone: '+971-54-252-4242',
-      email: 'info@evidproperties.com',
+      email: 'info@jadorproperties.com',
       areaServed: 'AE',
       availableLanguage: ['English', 'Arabic', 'Hindi', 'Urdu'],
     },
   ],
   telephone: '+971-54-252-4242',
-  email: 'info@evidproperties.com',
+  email: 'info@jadorproperties.com',
   geo: {
     '@type': 'GeoCoordinates',
     latitude: '25.1868',
@@ -38,7 +38,7 @@ export const organizationSchema = {
     closes: '19:00',
   },
   sameAs: [
-    'https://www.instagram.com/evidproperties/',
+    'https://www.instagram.com/jadorproperties/',
   ],
   priceRange: '$$',
   aggregateRating: {
@@ -51,12 +51,12 @@ export const organizationSchema = {
 export const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': 'https://evidproperties.com/#organization',
-  name: 'Evid Properties',
-  image: 'https://evidproperties.com/images/new_logo.png',
-  url: 'https://evidproperties.com',
+  '@id': 'https://jadorproperties.com/#organization',
+  name: 'jador Properties',
+  image: 'https://jadorproperties.com/images/new_logo.png',
+  url: 'https://jadorproperties.com',
   telephone: '+971-54-252-4242',
-  email: 'info@evidproperties.com',
+  email: 'info@jadorproperties.com',
   address: {
     '@type': 'PostalAddress',
     streetAddress: '2107, Al Manara Tower, Business Bay',
@@ -86,13 +86,13 @@ export const localBusinessSchema = {
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  name: 'Evid Properties',
-  url: 'https://evidproperties.com',
+  name: 'jador Properties',
+  url: 'https://jadorproperties.com',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://evidproperties.com/buy?title={search_term_string}',
+      urlTemplate: 'https://jadorproperties.com/buy?title={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },
@@ -125,15 +125,15 @@ export const propertySchema = (property: {
   '@type': 'Product',
   name: property.name,
   description: property.description || property.name,
-  image: property.image || 'https://evidproperties.com/images/placeholder.jpg',
+  image: property.image || 'https://jadorproperties.com/images/placeholder.jpg',
   offers: property.price
     ? {
-        '@type': 'Offer',
-        price: property.price,
-        priceCurrency: property.currency || 'AED',
-        availability: 'https://schema.org/InStock',
-        url: property.url,
-      }
+      '@type': 'Offer',
+      price: property.price,
+      priceCurrency: property.currency || 'AED',
+      availability: 'https://schema.org/InStock',
+      url: property.url,
+    }
     : undefined,
   ...(property.address && {
     address: {
@@ -160,19 +160,19 @@ export const articleSchema = (article: {
   '@type': 'Article',
   headline: article.headline,
   description: article.description,
-  image: article.image || 'https://evidproperties.com/images/placeholder.jpg',
+  image: article.image || 'https://jadorproperties.com/images/placeholder.jpg',
   datePublished: article.datePublished || new Date().toISOString(),
   dateModified: article.dateModified || new Date().toISOString(),
   author: {
     '@type': 'Organization',
-    name: article.author || 'Evid Properties',
+    name: article.author || 'jador Properties',
   },
   publisher: {
     '@type': 'Organization',
-    name: 'Evid Properties',
+    name: 'jador Properties',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://evidproperties.com/images/new_logo.png',
+      url: 'https://jadorproperties.com/images/new_logo.png',
     },
   },
   mainEntityOfPage: {

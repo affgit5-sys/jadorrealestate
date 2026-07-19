@@ -7,21 +7,21 @@ function ClientTestimonials() {
       name: "Ameer A.",
       time: "1 year ago",
       title: "Best Buyers in No Time",
-      review: "From listing to closing, Evid provided excellent service. They marketed my property effectively and brought in serious buyers within days.",
+      review: "From listing to closing, jador provided excellent service. They marketed my property effectively and brought in serious buyers within days.",
       avatar: <User className="w-8 h-8" />
     },
     {
       name: "Karen F.",
       time: "1 year ago",
       title: "Seamless Sales Process",
-      review: "Evid's expertise helped me get the best value for my home. Their marketing efforts were amazing, and the sale process was seamless.",
+      review: "jador's expertise helped me get the best value for my home. Their marketing efforts were amazing, and the sale process was seamless.",
       avatar: <User className="w-8 h-8" />
     },
     {
       name: "Mark H.",
       time: "1 year ago",
       title: "Smart and Effective Service",
-      review: "The entire process was quick and efficient. The Evid's team took care of everything from marketing to negotiating offers. I'm delighted with their work.",
+      review: "The entire process was quick and efficient. The jador's team took care of everything from marketing to negotiating offers. I'm delighted with their work.",
       avatar: <User className="w-8 h-8" />
     }
   ];

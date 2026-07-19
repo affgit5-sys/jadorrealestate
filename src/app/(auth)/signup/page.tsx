@@ -35,7 +35,7 @@ export default function SignupPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!formData.agreeToTerms) {
       setError('Please agree to the Terms of Service and Privacy Policy');
       return;
@@ -54,10 +54,10 @@ export default function SignupPage() {
       };
 
       const response = await api.post('/api/owner/register', apiData);
-      
+
       // Success - navigate to home page
       router.push('/');
-      
+
     } catch (err) {
       const apiError = handleApiError(err);
       setError(apiError.message || 'Registration failed. Please try again.');
@@ -85,16 +85,16 @@ export default function SignupPage() {
         <div className="bg-white rounded-lg shadow-2xl p-10">
           {/* Header */}
           <div className="text-center mb-8">
-            <Link 
+            <Link
               href="/"
               className="flex items-center text-gray-600 hover:text-gray-800 transition-colors duration-200 mb-6"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               <span className="text-sm">Back to website</span>
             </Link>
-            
+
             <h1 className="text-3xl font-bold text-blue-900 mb-2 font-serif">
-              EVIDPROPERTIES
+              jadorPROPERTIES
             </h1>
             <p className="text-gray-600 text-sm mb-4">
               Create your account
@@ -108,8 +108,8 @@ export default function SignupPage() {
           </div>
 
           {/* Google Sign Up */}
-          <Button 
-            variant="outline" 
+          <Button
+            variant="outline"
             className="w-full mb-6 h-12 border-gray-300 hover:bg-gray-50"
           >
             <svg className="w-5 h-5 mr-3" viewBox="0 0 24 24">
@@ -241,7 +241,7 @@ export default function SignupPage() {
             {/* Terms Agreement */}
             <div className="pt-2">
               <div className="flex items-start space-x-3">
-                <Checkbox 
+                <Checkbox
                   id="terms"
                   checked={formData.agreeToTerms}
                   onCheckedChange={(checked) => handleInputChange('agreeToTerms', checked)}
@@ -262,8 +262,8 @@ export default function SignupPage() {
             </div>
 
             {/* Submit Button */}
-            <Button 
-              type="submit" 
+            <Button
+              type="submit"
               className="w-full h-12 bg-primary hover:bg-primary text-white font-medium text-lg mt-6"
               disabled={!formData.agreeToTerms || isLoading}
             >

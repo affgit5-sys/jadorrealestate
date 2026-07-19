@@ -2,8 +2,8 @@ import React from 'react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Cookie Policy - EVIDPROPERTIES',
-  description: 'Cookie Policy for EVIDPROPERTIES - Learn about how we use cookies and similar technologies.',
+  title: 'Cookie Policy - jadorPROPERTIES',
+  description: 'Cookie Policy for jadorPROPERTIES - Learn about how we use cookies and similar technologies.',
 };
 
 export default function CookiePolicyPage() {
@@ -12,7 +12,7 @@ export default function CookiePolicyPage() {
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="bg-white rounded-lg shadow-lg p-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-8 font-serif">Cookie Policy</h1>
-          
+
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
               <strong>Last updated:</strong> January 2025
@@ -31,9 +31,9 @@ export default function CookiePolicyPage() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4 font-serif">2. How We Use Cookies</h2>
               <p className="text-gray-700 mb-4">
-                EVIDPROPERTIES uses cookies for the following purposes:
+                jadorPROPERTIES uses cookies for the following purposes:
               </p>
-              
+
               <h3 className="text-xl font-semibold text-gray-800 mb-3 font-sans">2.1 Essential Cookies</h3>
               <p className="text-gray-700 mb-4">
                 These cookies are necessary for the website to function properly and cannot be disabled. They include:
@@ -81,7 +81,7 @@ export default function CookiePolicyPage() {
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4 font-serif">3. Types of Cookies We Use</h2>
-              
+
               <div className="overflow-x-auto mb-6">
                 <table className="min-w-full bg-white border border-gray-200 rounded-lg">
                   <thead className="bg-gray-50">
@@ -139,7 +139,7 @@ export default function CookiePolicyPage() {
               <p className="text-gray-700 mb-4">
                 Our website may contain cookies from third-party services that we use to enhance functionality and analyze usage:
               </p>
-              
+
               <h3 className="text-xl font-semibold text-gray-800 mb-3 font-sans">4.1 Google Analytics</h3>
               <p className="text-gray-700 mb-4">
                 We use Google Analytics to understand how visitors interact with our website. Google Analytics uses cookies to collect information about your use of our website, which is transmitted to and stored by Google.
@@ -161,7 +161,7 @@ export default function CookiePolicyPage() {
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4 font-serif">5. Managing Your Cookie Preferences</h2>
-              
+
               <h3 className="text-xl font-semibold text-gray-800 mb-3 font-sans">5.1 Cookie Consent</h3>
               <p className="text-gray-700 mb-4">
                 When you first visit our website, you will see a cookie consent banner. You can choose which types of cookies you want to accept. You can change your preferences at any time by clicking the "Cookie Settings" link in our website footer.
@@ -227,7 +227,7 @@ export default function CookiePolicyPage() {
                 If you have any questions about our use of cookies or this Cookie Policy, please contact us:
               </p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="text-gray-700 mb-2"><strong>EVIDPROPERTIES</strong></p>
+                <p className="text-gray-700 mb-2"><strong>jadorPROPERTIES</strong></p>
                 <a
                   href="https://maps.app.goo.gl/NMULwbYBcSqjuJco6"
                   target="_blank"
@@ -238,8 +238,8 @@ export default function CookiePolicyPage() {
                   <p className="text-gray-700 mb-2 hover:text-blue-600">Dubai, UAE</p>
                 </a>
                 <p className="text-gray-700 mb-2">Phone: <a href="tel:+971542524242" className="text-blue-600 hover:underline">+971 54 252 4242</a></p>
-                <p className="text-gray-700 mb-2">Email: <a href="mailto:privacy@evidproperties.com" className="text-blue-600 hover:underline">privacy@evidproperties.com</a></p>
-                <p className="text-gray-700">General Email: <a href="mailto:info@evidproperties.com" className="text-blue-600 hover:underline">info@evidproperties.com</a></p>
+                <p className="text-gray-700 mb-2">Email: <a href="mailto:privacy@jadorproperties.com" className="text-blue-600 hover:underline">privacy@jadorproperties.com</a></p>
+                <p className="text-gray-700">General Email: <a href="mailto:info@jadorproperties.com" className="text-blue-600 hover:underline">info@jadorproperties.com</a></p>
               </div>
             </section>
 

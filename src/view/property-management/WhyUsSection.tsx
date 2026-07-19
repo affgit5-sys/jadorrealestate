@@ -23,7 +23,7 @@ export default function WhyUsSection() {
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl">
               <Image
                 src="/images/building.jpg"
-                alt="Evid Properties Team with Awards"
+                alt="jador Properties Team with Awards"
                 fill
                 className="object-cover"
               />
@@ -35,9 +35,9 @@ export default function WhyUsSection() {
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900 leading-tight font-serif">
               Why Us?
             </h2>
-            
+
             <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-              Evid Properties is one of Dubai's best property management companies with a proven track record. We provide tailor-made services that ensure the best returns on investment.
+              jador Properties is one of Dubai's best property management companies with a proven track record. We provide tailor-made services that ensure the best returns on investment.
             </p>
 
             <div className="space-y-4">

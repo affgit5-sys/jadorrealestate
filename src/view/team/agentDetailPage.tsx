@@ -38,7 +38,7 @@ export default function AgentDetailPage({ id }: { id: string }) {
         const parsed = JSON.parse(language);
         return parsed.label || parsed.value || language;
       }
-      
+
       let withoutCode = language.replace(/^[a-z]{2}:\s*/, "");
       const spaceIndex = withoutCode.indexOf(" ");
       if (spaceIndex > 0) {
@@ -92,11 +92,11 @@ export default function AgentDetailPage({ id }: { id: string }) {
       <section className="relative pt-32 pb-16 md:pt-48 md:pb-24 overflow-hidden">
         <div className="absolute inset-0 bg-[#F8F6F0]/50 z-0"></div>
         <div className="absolute top-0 right-0 w-1/2 h-full bg-[#DC2626]/5 z-0 rounded-l-full blur-3xl"></div>
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col md:flex-row gap-12 items-center md:items-start">
             {/* Image Column */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
@@ -120,7 +120,7 @@ export default function AgentDetailPage({ id }: { id: string }) {
             </motion.div>
 
             {/* Info Column */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
@@ -129,14 +129,14 @@ export default function AgentDetailPage({ id }: { id: string }) {
               <span className="inline-block px-4 py-1.5 bg-[#DC2626]/10 text-[#DC2626] rounded-full text-sm font-medium tracking-wider uppercase mb-6">
                 {agent.designation || agent.role_name || "Real Estate Expert"}
               </span>
-              
+
               <h1 className="text-4xl md:text-6xl font-serif text-gray-900 mb-4 leading-tight">
                 {agent.name}
               </h1>
 
               {agent.team_name && agent.team_name !== "No team assigned" && (
                 <p className="text-xl text-gray-600 font-light mb-8 italic">
-                   {agent.team_name}
+                  {agent.team_name}
                 </p>
               )}
 
@@ -210,7 +210,7 @@ export default function AgentDetailPage({ id }: { id: string }) {
                 </h2>
                 <div className="prose prose-lg text-gray-600 max-w-none">
                   <p className="leading-relaxed">
-                    {agent.remarks || `${agent.name} is a dedicated ${agent.designation || 'Real Estate Expert'} at EVID Properties, specializing in Dubai's most prestigious developments. With a deep understanding of the market and a commitment to excellence, ${agent.name.split(' ')[0]} ensures every client finds their perfect home or investment.`}
+                    {agent.remarks || `${agent.name} is a dedicated ${agent.designation || 'Real Estate Expert'} at jador Properties, specializing in Dubai's most prestigious developments. With a deep understanding of the market and a commitment to excellence, ${agent.name.split(' ')[0]} ensures every client finds their perfect home or investment.`}
                   </p>
                 </div>
               </motion.div>
@@ -224,7 +224,7 @@ export default function AgentDetailPage({ id }: { id: string }) {
                   <h3 className="text-2xl font-serif text-gray-900 mb-6">Specialities</h3>
                   <div className="flex flex-wrap gap-3">
                     {agent.specialities.map((speciality, index) => (
-                      <span 
+                      <span
                         key={index}
                         className="px-6 py-2 bg-gray-50 border border-gray-100 rounded-xl text-gray-700 font-medium"
                       >
@@ -238,7 +238,7 @@ export default function AgentDetailPage({ id }: { id: string }) {
 
             {/* Right Column: Details & Languages */}
             <div className="space-y-12">
-              <motion.div 
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -300,7 +300,7 @@ export default function AgentDetailPage({ id }: { id: string }) {
                 <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-4">Active Listings</h2>
                 <p className="text-gray-600">Discover properties managed by {agent.name}</p>
               </div>
-              <Link 
+              <Link
                 href="/offPlans"
                 className="hidden md:flex items-center gap-2 text-[#DC2626] font-medium hover:underline"
               >

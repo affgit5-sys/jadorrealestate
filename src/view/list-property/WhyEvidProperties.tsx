@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Check } from 'lucide-react';
 
-function WhyEvidProperties() {
+function WhyjadorProperties() {
   const benefits = [
     "Most awarded real estate agency in the UAE",
     "Our agents speak more than 45 languages",
@@ -18,9 +18,9 @@ function WhyEvidProperties() {
           {/* Left Content */}
           <div>
             <h2 className="text-4xl font-bold text-blue-900 mb-8 font-serif">
-              Why list your property with Evid Properties?
+              Why list your property with jador Properties?
             </h2>
-            
+
             <div className="space-y-4 mb-8">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-start space-x-3">
@@ -43,7 +43,7 @@ function WhyEvidProperties() {
             <div className="relative w-full h-96 rounded-2xl overflow-hidden">
               <Image
                 src="/images/third.webp"
-                alt="Why list your property with Evid Properties - Dubai's most awarded real estate agency with zero fees and global reach"
+                alt="Why list your property with jador Properties - Dubai's most awarded real estate agency with zero fees and global reach"
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -67,4 +67,4 @@ function WhyEvidProperties() {
   );
 }
 
-export default WhyEvidProperties;
+export default WhyjadorProperties;

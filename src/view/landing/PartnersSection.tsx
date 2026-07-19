@@ -33,7 +33,7 @@ export default function PartnersSection() {
   useEffect(() => {
     const fetchDevs = async () => {
       try {
-        const response = await fetch("https://evid-api.propfusion.io/properties/get_developers?size=100");
+        const response = await fetch("https://jador-api.propfusion.io/properties/get_developers?size=100");
         const data = await response.json();
         setApiDevelopers(data.developers || data || []);
       } catch (error) {
@@ -166,9 +166,8 @@ export default function PartnersSection() {
               <button
                 key={i}
                 aria-label={`Go to slide ${i + 1}`}
-                className={`h-[2px] transition-all duration-300 ${
-                  i === index ? "w-8 bg-[#C5A880]" : "w-2 bg-white/20"
-                }`}
+                className={`h-[2px] transition-all duration-300 ${i === index ? "w-8 bg-[#C5A880]" : "w-2 bg-white/20"
+                  }`}
                 onClick={() => setIndex(i)}
               />
             );

@@ -23,18 +23,18 @@ export default function MainContent() {
           {/* Content */}
           <div className="order-1 lg:order-2">
             <h2 className="text-4xl font-bold text-blue-900 mb-6 font-serif">
-              Why Mortgages With Evid Properties?
+              Why Mortgages With jador Properties?
             </h2>
-            
+
             <div className="space-y-6 text-gray-700 leading-relaxed text-sm md:text-base">
               <p>
                 Premier Property Finance has over 10+ years of experience in the United Arab Emirates.
               </p>
-              
+
               <p>
                 If you're a property owner in the UAE or contemplating financing for new purchases or your existing property, you're in for a treat! Our service offers comprehensive research and top-notch financial solutions tailored to your unique needs.
               </p>
-              
+
               <p>
                 Whether you're expanding your property portfolio or seeking finance options for your current property, our expert insights and exceptional financial services are designed to ease your real estate journey. Premier Finance will provide you with tailored solutions from fully qualified advisors as well as access to low and competitive rates, transparent mortgage process and access to a number of Home Loan Programs.
               </p>

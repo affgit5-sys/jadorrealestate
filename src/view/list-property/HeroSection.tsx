@@ -10,7 +10,7 @@ function HeroSection() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/list.jpg"
-          alt="Luxury property listing service in Dubai - Evid Properties helping homeowners sell or rent their properties"
+          alt="Luxury property listing service in Dubai - jador Properties helping homeowners sell or rent their properties"
           fill
           className="object-cover"
           priority
@@ -28,7 +28,7 @@ function HeroSection() {
                   <span className="text-white font-bold text-lg">S</span>
                 </div>
                 <div className="text-center">
-                  <p className="text-white text-xs font-bold">EVID</p>
+                  <p className="text-white text-xs font-bold">jador</p>
                   <p className="text-white text-xs">PROPERTIES</p>
                 </div>
               </div>
