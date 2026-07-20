@@ -40,12 +40,14 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/images/new_logo.png', sizes: '32x32', type: 'image/png' },
-      { url: '/images/new_logo.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon.ico' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
     ],
-    shortcut: '/images/new_logo.png',
-    apple: '/images/new_logo.png',
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
+  manifest: '/site.webmanifest',
   openGraph: {
     title: "jador Properties - Premium Real Estate Solutions in Dubai",
     description: "Discover luxury properties, off-plan projects, and premium real estate services in Dubai. Expert agents, comprehensive market insights, and exceptional customer service.",
